@@ -1,0 +1,31 @@
+# ==================== Backend ====================
+ems-spring-boot/target/
+ems-spring-boot/.mvn/
+ems-spring-boot/.idea/
+ems-spring-boot/*.iml
+ems-spring-boot/logs/
+
+# ==================== Frontend ====================
+ems-frontend/node_modules/
+ems-frontend/dist/
+ems-frontend/build/
+ems-frontend/.env
+ems-frontend/.vite/
+
+# ==================== General ====================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+
+# ==================== IDE ====================
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# ==================== OS ====================
+.DS_Store 
