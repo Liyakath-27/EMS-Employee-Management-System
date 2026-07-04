@@ -1,0 +1,46 @@
+Employee Management System (EMS)
+
+Overview:
+This workspace contains a full-stack Employee Management System comprised of a Spring Boot backend and a React frontend. The backend exposes REST APIs for employee CRUD operations, search, pagination, and sorting. The frontend consumes these APIs and provides a responsive UI for managing employee records.
+
+Project Layout:
+- ems-spring-boot/: Spring Boot backend application.
+- ems-frontend/: React frontend application built with Vite.
+- screenshots/: Screenshot assets for the project.
+
+Backend (ems-spring-boot):
+- Java 21 with Spring Boot 3.3.4.
+- Uses Spring Data JPA for persistence and MySQL as the database.
+- Includes DTOs, MapStruct mappers, and global exception handling.
+- Validation is handled through Jakarta Bean Validation.
+- Uses Lombok for model boilerplate reduction.
+- Maven build with compiler and Spring Boot plugin support.
+
+Frontend (ems-frontend):
+- React application created with Vite.
+- Uses Axios for HTTP requests.
+- Includes components for listing employees, viewing details, adding new employees, and editing existing records.
+- Likely uses Bootstrap 5 styling and notification libraries.
+
+How to Run:
+1. Backend:
+   - Open ems-spring-boot/
+   - Configure MySQL connection in src/main/resources/application.properties.
+   - Run `mvn clean install` and `mvn spring-boot:run`.
+   - Backend server should start on http://localhost:8080.
+
+2. Frontend:
+   - Open ems-frontend/
+   - Run `npm install` to install dependencies.
+   - Run `npm run dev` to start the development server.
+   - Frontend app should run on http://localhost:3000.
+
+Key Features:
+- Employee creation, editing, deletion, and detail viewing.
+- Search and pagination support.
+- Structured REST API design.
+- Clean separation of frontend and backend layers.
+
+Notes:
+- The root README already describes the application features and technologies.
+- This file summarizes the main structure and usage of the project.
