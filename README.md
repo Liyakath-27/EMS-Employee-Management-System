@@ -110,6 +110,6 @@ ems-project/
 - Search Functionality
 
 ## 👨‍💻 Author
-<b><i>Ahmed Ayman</i></b>
+<b><i>Liyakath Ali</i></b>
 <br>
 Full Stack Java Developer
